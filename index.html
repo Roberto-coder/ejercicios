@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Operaciones</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<script type="text/javascript" src=js/funciones.js></script>
+	<form id = "miFormulario" name="formulario" method="post">
+		<table>
+			<thead>
+				<tr>
+					<th>Ingrese dos numeros:</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Ingrese el primer numero:</td>
+					<td><input type="number" id="num1" placeholder="Número 1" autofocus ></td>
+				</tr>
+				<tr>
+					<td>Ingrese el segundo numero:</td>
+					<td><input type="number" id="num2" placeholder="Número 2"></td>
+				</tr>
+				<tr>
+					<td><button type="button" onclick="operar();">Enviar datos</button></td>
+				</tr>
+				<tr>
+					<td>tu resultado es: </td>
+					<td><input type="text" name="resultado" readonly="readonly"></td>
+				</tr>
+			</tbody>
+		</table>
+			<br>
+			<br>
+		<table>
+		<thead>
+			<tr>
+				<th>Escribe tres numeros:</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Ingrese el primer numero</td>
+				<td><input type="number" id="a"></td>
+			</tr>
+			<tr>
+				<td>Ingrese el segundo numero</td>
+				<td><input type="number" id="b"></td>
+			</tr>
+			<tr>
+				<td>Ingrese el tercer numero</td>
+				<td><input type="number" id="c"></td>
+			</tr>
+			<tr>
+				<td><button type="button" onclick="mayor();">Numero mayor</button></td>
+			</tr>
+			<tr>
+				<td>El número mayor es: </td>
+				<td><input type="text" name="result" readonly="readonly"></td>
+			</tr>
+		</tbody>
+		</table>
+		
+	</form>
+
+</body>
+</html>
